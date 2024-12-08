@@ -1,0 +1,23 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgba(20,20,20,255);
+    font-family: fantasy;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: rgba(194,137,156,255);
+    font-size: 19px;
+    margin-right: 25px;
+}
