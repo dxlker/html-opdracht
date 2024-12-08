@@ -1,0 +1,19 @@
+#container{
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.popcat1{
+    width: 800px;
+    height: 800px;
+    background: url('Schermafbeelding\ 2024-12-08\ 201900.png');
+    margin: auto;
+}
+.popcat2{
+    width: 800px;
+    height: 800px;
+    background: url('Schermafbeelding\ 2024-12-08\ 201912.png');
+    margin: auto;
+}

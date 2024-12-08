@@ -61,3 +61,34 @@ li a{
     transform: translateY(-10px)scale(1.03);
     box-shadow: 0 0 15px 5px rgba(194,137,156,255);
 }
+
+.container{
+    position: relative;
+    max-width: 1350px;
+    width: 40%;
+    padding: 2%;
+    margin: 10px auto;
+}
+.filter_buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: pink;
+    border: ;
+    border-radius: 6px;
+    box-shadow: 0 0 15px 5px rgba(194,137,156,255);
+    cursor: pointer;
+}
+
+button.active{
+    background: blue;
+    color: pink;
+}
+
+.hide {
+    display: none;
+}
