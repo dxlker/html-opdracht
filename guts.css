@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "blood";
+    src: url(bloodcrow.ttf);
+}
+*{
+    
+}
+h1{
+    font-family: blood;
+    font-size: 50px;
+    color: rgba(216,0,0,255);
+}
+
+body{
+    background-image: url(gutsy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+p{
+    color: white;
+    font-family: blood;
+    font-size: 24px;
+}
+
+img{
+    width: 150px;
+}
