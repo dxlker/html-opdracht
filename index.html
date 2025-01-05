@@ -40,10 +40,8 @@
     
                     <div class="wrapper">
                         <div class="heroes-item" data-name="game">
-                            <a href="http://127.0.0.1:5500/lucio.html" target="_blank"> <img src="Lucio_Icon.webp" alt="Lucio"></a>
+                            <a href="http://127.0.0.1:5501/lucio.html" target="_blank"> <img src="Lucio_Icon.webp" alt="Lucio"></a>
                             <h2>Lúcio</h2>
-                            <div class="support">
-                            </div>
                         </div>
     
                         <div class="heroes-item" data-name="game">
@@ -54,9 +52,37 @@
                             </div>
                         </div>
     
-                        <div class="heroes-item">
-                            <img src="mercy.webp" alt="Mercy" data-name="anime">
+                        <div class="heroes-item"  data-name="anime">
+                            <img src="mercy.webp" alt="Mercy">
                             <h2>Mercy</h2>
+                            <div class="support">
+                            </div>
+                        </div>
+
+                        <div class="heroes-item" data-name="game">
+                            <img src="Leon •__.jpg" alt="Leon">
+                            <h2>Leon</h2>
+                            <div class="support">
+                            </div>
+                        </div>
+
+                        <div class="heroes-item"  data-name="anime">
+                            <img src="ereh.jpg" alt="Eren">
+                            <h2>Eren</h2>
+                            <div class="support">
+                            </div>
+                        </div>
+
+                        <div class="heroes-item"  data-name="anime">
+                            <img src="thorfijn.jpg" alt="Thorfinn">
+                            <h2>Thorfinn</h2>
+                            <div class="support">
+                            </div>
+                        </div>
+
+                        <div class="heroes-item"  data-name="anime">
+                            <img src="jeffy.jpg" alt="Jeff">
+                            <h2>Jeff</h2>
                             <div class="support">
                             </div>
                         </div>
@@ -66,6 +92,15 @@
             </section>
     
         </main>
-    
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+        <script> document.addEventListener("DOMContentLoaded", () => { 
+            const filterButtons = document.querySelectorAll(".filters_buttons button"); 
+            const filterableCards = document.querySelectorAll(".wrapper .heroes-item"); 
+            const filterCards = e => { document.querySelector(".filters_buttons .active").classList.remove("active"); 
+            e.target.classList.add("active"); filterableCards.forEach(heroesItem => { heroesItem.classList.add("hide");
+             if (heroesItem.dataset.name === e.target.dataset.name || e.target.dataset.name === "all") { heroesItem.classList.remove("hide"); } }); }; filterButtons.forEach(button => button.addEventListener("click", filterCards)); }); 
+             </script>
 </body>
 </html>
