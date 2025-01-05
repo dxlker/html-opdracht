@@ -2,7 +2,39 @@
     font-family: "viking";
     src: url(Viking.ttf);
 }
+*{
+    background-color: black;
+}
 
 h1{
     font-family: "viking";
+    color: red;
+    font-size: xx-large;
 }
+
+p{
+    font-family: "viking";
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 500px;
+    font-size:larger;
+    
+}
+ .thorfinn{
+    width: 400px;
+    margin-left: 1000px;
+    position: absolute;
+    top: 180px;
+ }
+
+ .logo{
+    width: 300px;
+    position: absolute;
+    top: 450px;
+ }
+ 
+ h1{
+    top: 400px;
+ }
