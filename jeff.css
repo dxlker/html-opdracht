@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "fredoka";
+    src: url(fredoka-one.one-regular.ttf);
+}
+
+body{
+    background-color: rgba(168,183,186,255);
+}
+
+h1{
+    font-family: fredoka;
+    font-size: 50px;
+    color: rgba(209,137,168,255);
+}
+
+p{
+    font-family: fredoka;
+    font-size: 25px;
+    color: rgba(64,87,121,255);
+}
+
+.jeffy{
+    width: 450px;
+    margin-left: 900px;
+    position: absolute;
+    top: 290px;
+
+    animation-name: grow;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;}
+
+@keyframes rotate{
+    from{transform: rotateZ(360deg)}
+}
+@keyframes grow{
+    50%{transform: scale(2, 2)}
+}
+
+.logo{
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
