@@ -1,0 +1,40 @@
+input[type=text], textarea{
+    width;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgba(20,20,20,255);
+    font-family: fantasy;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: rgba(194,137,156,255);
+    font-size: 19px;
+    margin-right: 25px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
